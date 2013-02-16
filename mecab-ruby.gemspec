@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
 	s.name = %q{mecab-ruby}
-	s.version = '0.994.2'
+	s.version = '0.995.0'
 	s.author = 'Taku Kudo'
 	s.date = '2011-12-24'
 	s.description = <<-EOF
