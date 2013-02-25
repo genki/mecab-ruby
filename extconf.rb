@@ -5,6 +5,7 @@ use_mecab_config = enable_config('mecab-config')
 
 $LDFLAGS += ' -L' + `#{mecab_config} --libs-only-L`.chomp
 
+$LIBS += '-L/usr/local/Cellar/mecab/0.99/lib'
 `mecab-config --libs-only-l`.chomp.split.each { | lib |
   have_library(lib)
 }
