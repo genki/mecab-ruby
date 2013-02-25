@@ -1,10 +1,6 @@
 Gem::Specification.new do |s|
 	s.name = %q{mecab-ruby}
-<<<<<<< HEAD
 	s.version = '0.99.1'
-=======
-	s.version = '0.995.0'
->>>>>>> parent of 634f3fe... Back to 0.99
 	s.author = 'Taku Kudo'
 	s.date = '2011-12-24'
 	s.description = <<-EOF
