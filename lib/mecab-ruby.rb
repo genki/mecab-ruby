@@ -1,4 +1,5 @@
-require File.join(File.dirname(__FILE__), %w[.. MeCab])
+require 'MeCab'
+#require File.join(File.dirname(__FILE__), %w[.. MeCab])
 
 module MeCab
   class Nodes
